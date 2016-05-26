@@ -4102,8 +4102,8 @@ nav {
   color: #fff;
   background-color: #ee6e73;
   width: 100%;
-  height: 56px;
-  line-height: 56px;
+  height: 64px;
+  line-height: 64px;
 }
 
 nav a {
@@ -4152,13 +4152,13 @@ nav .brand-logo {
   white-space: nowrap;
 }
 
+/*
 nav .brand-logo.center {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
-/*
 @media only screen and (max-width: 992px) {
   nav .brand-logo {
     left: 50%;
