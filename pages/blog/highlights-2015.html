@@ -16,7 +16,7 @@
 <nav>
 	<div class="nav-wrapper grey darken-4">
 		<a href="../../index.html" class="brand-logo"><img src="../../images/YHlogo.png" style="height: 25px; margin-left: 2.5em;"></a>
-		<ul class="left hide-on-med-and-down linked">
+		<ul class="left hide-on-small-only linked">
 			<li><a href="../about.html">ABOUT</a></li>
 			<li><a href="../activities.html">ACTIVITIES</a></li>
 			<li><a href="../ideas.html">IDEAS</a></li>
@@ -45,14 +45,14 @@
 	<div class="date">January 10, 2016</div>
 </div>
 
-	<div class="graphic null"><img src="../../images/blog/yh-2015.png"></div>
+	<div class="graphic null"><img src="../../images/blog/yh-2015.png" alt="yh-2015.png"></div>
 		<p>2015 was a big year for YouthHack. In between the several events, workshops, programs and meetups, it was during this 2015 when YouthHack grew from a small organization back in the Philippines into a global one. Since holding our first-event back in July 2014, YouthHack has gone on to start programs in the Philippines, Singapore, Hong Kong and the US with over 800 students participating. We’re excited to see how much YouthHack grows in the upcoming year but for now, we’re thankful for all the support we got this 2015 🙂 Here’s a recap of the Top 15 Milestones and Moments from this awesome year!</p>
 
 		<p class="bold">1. YouthHack Philadelphia ‘Shark Tank’ Challenge 2015</p>
 
 		<p>Last April 26, 2015, we had our very first YouthHack Philadelphia event for high school students. We had around 25 kids come over to hear from experienced entrepreneurs and venture capitalists. This first event was a great way for us to get our foot in the door in the Philly startup scene which led to a lot more opportunities in the following months. In fact, two high school students from this event would end up joining the YouthHack Philadelphia core team.</p>
 
-		<div class="graphic" style="float: left;"><img src="../../images/blog/yh-philly-fun.jpg" class="materialboxed"><div class="capt">YouthHack Philly was a lot of fun :)</div></div>
+		<div class="graphic" style="float: left;"><img src="../../images/blog/yh-philly-fun.jpg" alt="yh-philly-fun.jpg" class="materialboxed"><div class="capt">YouthHack Philly was a lot of fun :)</div></div>
 
 		<p class="bold">2. YouthHack Manila 2015 Fellowship Program</p>
 
@@ -68,7 +68,7 @@
 
 		<p>There’s still a very big gap when it comes to STEM education in the Philippines so we wanted to encourage more students to get interested in coding by helping them dive into it through a 36-hour Code Weekend that we held in Microsoft Philippines. Over 80 students participated in this inaugural event and a good amount of them ended up building a functional hack/prototype by the end of the weekend.</p>
 
-		<div class="graphic"><img src="../../images/yh-codeweekend2016-gallery/34.jpg" class="materialboxed"><div class="capt">YouthHack Startup Challenge 2015 Pitching</div></div>
+		<div class="graphic"><img src="../../images/yh-codeweekend2016-gallery/34.jpg" alt="34.jpg" class="materialboxed"><div class="capt">YouthHack Startup Challenge 2015 Pitching</div></div>
 		<p class="bold">5. YouthHack Manila Startup Challenge 2015</p>
 
 		<p>This was by far our biggest event yet. Over 250 students attended this 2-day Startup Challenge we hosted back in July. We had multiple keynote speakers, networking sessions, 7 simultaneous workshops, a startup fair and the annual pitch competition. Phew. Check out this photo of over these future entrepreneurs building new relationships with each other 🙂.</p>
@@ -105,7 +105,7 @@
 
 		<p>As part of the FreshStart program, we organized a startup tour for the freshmen to really dive into the Philadelphia Startup Scene. We ended up visiting Curalate, DreamIt Ventures, RJ Metrics and Tecnical.ly Philly.</p>
 
-		<div class="graphic"><img src="../../images/blog/yh-soon.jpg" class="materialboxed"><div class="capt">YouthHack-Nigeria coming soon!</div></div>
+		<div class="graphic"><img src="../../images/blog/yh-soon.jpg" alt="yh-soon.jpg" class="materialboxed"><div class="capt">YouthHack-Nigeria coming soon!</div></div>
 		<p class="bold">14. YouthHack starts its expansion plans to Nigeria, Australia, Thailand &amp; Sri Lanka</p>
 
 		<p>This year was a big year for YouthHack and we just finished working on the logistics and expansion plan into a few new countries. It’s really exciting when you have young people reaching out to bring YouthHack to other countries because they want to help empower students. We’re really excited for the start of these new chapters next year!</p>
@@ -127,10 +127,10 @@
 	</div>
 	<div class="col s5" style="text-align: center;">
 			<div class="footerSoc">
-			<a class="waves-effect waves-light" target="_blank" href="http://www.facebook.com/YouthHackCLBZ"><div class="socicon-facebook"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="http://www.twitter.com/YouthHackCLBZ"><div class="socicon-twitter"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="mailto://youthhackclbz@gmail.com"><div class="socicon-mail"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="http://youthhack.net"><div class="socicon"><i class="material-icons">language</i></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="YouthHack CALABARZON Facebook Page" target="_blank" href="http://www.facebook.com/YouthHackCLBZ"><div class="socicon-facebook"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="@YouthHackCLBZ" target="_blank" href="http://www.twitter.com/YouthHackCLBZ"><div class="socicon-twitter"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="youthhackclbz@gmail.com" href="mailto://youthhackclbz@gmail.com"><div class="socicon-mail"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="http://www.youthhack.net/" target="_blank" href="http://youthhack.net"><div class="socicon"><i class="material-icons">language</i></div></a>
 			</div>
 
 			<!-- <div class="dev">
@@ -157,6 +157,8 @@
 <script type="text/javascript" src="../../js/materialize.min.js"></script>
 
 <script>
-
+$(document).ready(function() {
+	$('.tooltipped').tooltip({delay: 400});
+});
 </script>
 </body></html>

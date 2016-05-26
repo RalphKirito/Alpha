@@ -16,7 +16,7 @@
 <nav>
 	<div class="nav-wrapper grey darken-4">
 		<a href="../../index.html" class="brand-logo"><img src="../../images/YHlogo.png" style="height: 25px; margin-left: 2.5em;"></a>
-		<ul class="left hide-on-med-and-down linked">
+		<ul class="left hide-on-small-only linked">
 			<li><a href="../about.html">ABOUT</a></li>
 			<li><a href="../activities.html">ACTIVITIES</a></li>
 			<li><a href="../ideas.html">IDEAS</a></li>
@@ -45,7 +45,7 @@
 	<div class="date">June 23, 2015</div>
 </div>
 
-	<div class="graphic"><img src="../../images/blog/filling-blanks.jpg" class="materialboxed"><div class="capt">FILLING THE BLANKS. YouthHack Manila founder David Ongchoco created the event to address the lack of support budding tech entrepreneurs were getting in the country.</div></div>
+	<div class="graphic"><img src="../../images/blog/filling-blanks.jpg" class="materialboxed" alt="filling-blanks.jpg"><div class="capt">FILLING THE BLANKS. YouthHack Manila founder David Ongchoco created the event to address the lack of support budding tech entrepreneurs were getting in the country.</div></div>
 
 	<p>When Filipino youth David Ongchoco was applying to college in the United States, he came across many events to support entrepreneurs, including business plan competitions, hackathons, and startup weekends.</p>
 
@@ -71,7 +71,7 @@
 
 	<p>Notable speakers at the event included Kalibrr co-founder and CEO Paul Rivera, Ideaspace Foundation president and co-founder Earl Martin Valencia, and serial entrepreneur and Horsepower.ph co-founder Jojy Azurin.</p>
 
-	<div class="graphic" style="float: left;"><img src="../../images/blog/yh-mentoring.jpg" class="materialboxed"><div class="capt">MENTORING. Kalibrr founder and Ceo Paul Rivera (far left) gives young entrepreneurs advice on how to get their ideas off the ground.</div></div>
+	<div class="graphic" style="float: left;"><img src="../../images/blog/yh-mentoring.jpg" alt="yh-mentoring.jpg" class="materialboxed"><div class="capt">MENTORING. Kalibrr founder and Ceo Paul Rivera (far left) gives young entrepreneurs advice on how to get their ideas off the ground.</div></div>
 
 	<p>Ongchoco said he was equally impressed with the attendees. "I was really inspired by the variety of ideas that the students came up with that all tried to solve a social problem in our country," he shared.</p>
 
@@ -93,7 +93,7 @@
 
 	<p>The two-day summit is composed of talks, workshops, networking sessions, and a grand finale in which the finalists get to pitch to their business idea to a panel of judges and investors.</p>
 
-	<div class="graphic"><img src="../../images/blog/applica.jpg" class="materialboxed"><div class="capt">PITCH. Xavier School graduate King Alandy Dy pitching his team's app before an audience at YouthHack Manila.</div></div>
+	<div class="graphic"><img src="../../images/blog/applica.jpg" alt="applica.jpg" class="materialboxed"><div class="capt">PITCH. Xavier School graduate King Alandy Dy pitching his team's app before an audience at YouthHack Manila.</div></div>
 
 	<p>According to Ongchoco, the goal of these activities is as much about developing the right mindset as it is practicing business specific skills.</p>
 
@@ -126,10 +126,10 @@
 	</div>
 	<div class="col s5" style="text-align: center;">
 			<div class="footerSoc">
-			<a class="waves-effect waves-light" target="_blank" href="http://www.facebook.com/YouthHackCLBZ"><div class="socicon-facebook"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="http://www.twitter.com/YouthHackCLBZ"><div class="socicon-twitter"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="mailto://youthhackclbz@gmail.com"><div class="socicon-mail"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="http://youthhack.net"><div class="socicon"><i class="material-icons">language</i></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="YouthHack CALABARZON Facebook Page" target="_blank" href="http://www.facebook.com/YouthHackCLBZ"><div class="socicon-facebook"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="@YouthHackCLBZ" target="_blank" href="http://www.twitter.com/YouthHackCLBZ"><div class="socicon-twitter"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="youthhackclbz@gmail.com" href="mailto://youthhackclbz@gmail.com"><div class="socicon-mail"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="http://www.youthhack.net/" target="_blank" href="http://youthhack.net"><div class="socicon"><i class="material-icons">language</i></div></a>
 			</div>
 
 			<!-- <div class="dev">
@@ -156,6 +156,8 @@
 <script type="text/javascript" src="../../js/materialize.min.js"></script>
 
 <script>
-
+$(document).ready(function() {
+	$('.tooltipped').tooltip({delay: 400});
+});
 </script>
 </body></html>

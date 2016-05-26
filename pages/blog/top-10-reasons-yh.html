@@ -16,7 +16,7 @@
 <nav>
 	<div class="nav-wrapper grey darken-4">
 		<a href="../../index.html" class="brand-logo"><img src="../../images/YHlogo.png" style="height: 25px; margin-left: 2.5em;"></a>
-		<ul class="left hide-on-med-and-down linked">
+		<ul class="left hide-on-small-only linked">
 			<li><a href="../about.html">ABOUT</a></li>
 			<li><a href="../activities.html">ACTIVITIES</a></li>
 			<li><a href="../ideas.html">IDEAS</a></li>
@@ -45,7 +45,7 @@
 	<div class="date">June 19, 2015</div>
 </div>
 
-	<div class="graphic"><img src="../../images/blog/yh-celeb.jpg" class="materialboxed"><div class="capt">CELEBRATING at the end of the first ever YouthHack event. DEONDRE NG</div></div>
+	<div class="graphic"><img src="../../images/blog/yh-celeb.jpg" alt="yh-celeb.jpg" class="materialboxed"><div class="capt">CELEBRATING at the end of the first ever YouthHack event. DEONDRE NG</div></div>
 
 	<p>YouthHack is an organization we started last year with the goal of helping students learn more about startups, technology and entrepreneurship.</p>
 	
@@ -63,7 +63,7 @@
 
 	<p><span class="bold">3</span> "The YouthHack initiative is definitely a glimmer of hope in pushing forward the talent of the youth by Filipinos, for Filipinos, and beyond. Through technology, high school students are empowered to use their know-how in creating initiatives that solve compelling challenges in society. It is great to see YouthHack expanding beyond our shores. It makes me proud to know that this positive influence in society is a homegrown endeavor." —Goldy Yancha, community development associate director of IdeaSpace</p>
 
-	<div class="graphic" style="float: left; width: 25vw;"><img src="../../images/blog/a-ses.jpg" class="materialboxed"><div class="capt">ASES President Jaime Young giving a talk on pitching. DEONDRE NG</div></div>
+	<div class="graphic" style="float: left; width: 25vw;"><img src="../../images/blog/a-ses.jpg" alt="a-ses.jpg" class="materialboxed"><div class="capt">ASES President Jaime Young giving a talk on pitching. DEONDRE NG</div></div>
 
 	<p class="bold">Life-changing</p>
 
@@ -96,10 +96,10 @@
 	</div>
 	<div class="col s5" style="text-align: center;">
 			<div class="footerSoc">
-			<a class="waves-effect waves-light" target="_blank" href="http://www.facebook.com/YouthHackCLBZ"><div class="socicon-facebook"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="http://www.twitter.com/YouthHackCLBZ"><div class="socicon-twitter"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="mailto://youthhackclbz@gmail.com"><div class="socicon-mail"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="http://youthhack.net"><div class="socicon"><i class="material-icons">language</i></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="YouthHack CALABARZON Facebook Page" target="_blank" href="http://www.facebook.com/YouthHackCLBZ"><div class="socicon-facebook"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="@YouthHackCLBZ" target="_blank" href="http://www.twitter.com/YouthHackCLBZ"><div class="socicon-twitter"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="youthhackclbz@gmail.com" href="mailto://youthhackclbz@gmail.com"><div class="socicon-mail"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="http://www.youthhack.net/" target="_blank" href="http://youthhack.net"><div class="socicon"><i class="material-icons">language</i></div></a>
 			</div>
 
 			<!-- <div class="dev">
@@ -126,6 +126,8 @@
 <script type="text/javascript" src="../../js/materialize.min.js"></script>
 
 <script>
-
+$(document).ready(function() {
+	$('.tooltipped').tooltip({delay: 400});
+});
 </script>
 </body></html>

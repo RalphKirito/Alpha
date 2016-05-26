@@ -16,7 +16,7 @@
 <nav>
 	<div class="nav-wrapper grey darken-4">
 		<a href="../../index.html" class="brand-logo"><img src="../../images/YHlogo.png" style="height: 25px; margin-left: 2.5em;"></a>
-		<ul class="left hide-on-med-and-down linked">
+		<ul class="left hide-on-small-only linked">
 			<li><a href="../about.html">ABOUT</a></li>
 			<li><a href="../activities.html">ACTIVITIES</a></li>
 			<li><a href="../ideas.html">IDEAS</a></li>
@@ -45,7 +45,7 @@
 	<div class="date">July 23, 2015</div>
 </div>
 
-	<div class="graphic null"><img src="../../images/blog/pp.jpg" class="materialboxed"></div>
+	<div class="graphic null"><img src="../../images/blog/pp.jpg" alt="pp.jpg" class="materialboxed"></div>
 	
 	<p>Just two weeks ago, some of Manila’s best student innovators hacked their way to the top at our first Code Weekend. This weekend, watch out for future gamechangers in the business industry. Are you ready? Here are a few quick tips to get your head in the game.</p>
 
@@ -81,10 +81,10 @@
 	</div>
 	<div class="col s5" style="text-align: center;">
 			<div class="footerSoc">
-			<a class="waves-effect waves-light" target="_blank" href="http://www.facebook.com/YouthHackCLBZ"><div class="socicon-facebook"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="http://www.twitter.com/YouthHackCLBZ"><div class="socicon-twitter"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="mailto://youthhackclbz@gmail.com"><div class="socicon-mail"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="http://youthhack.net"><div class="socicon"><i class="material-icons">language</i></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="YouthHack CALABARZON Facebook Page" target="_blank" href="http://www.facebook.com/YouthHackCLBZ"><div class="socicon-facebook"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="@YouthHackCLBZ" target="_blank" href="http://www.twitter.com/YouthHackCLBZ"><div class="socicon-twitter"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="youthhackclbz@gmail.com" href="mailto://youthhackclbz@gmail.com"><div class="socicon-mail"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="http://www.youthhack.net/" target="_blank" href="http://youthhack.net"><div class="socicon"><i class="material-icons">language</i></div></a>
 			</div>
 
 			<!-- <div class="dev">
@@ -111,6 +111,8 @@
 <script type="text/javascript" src="../../js/materialize.min.js"></script>
 
 <script>
-
+$(document).ready(function() {
+	$('.tooltipped').tooltip({delay: 400});
+});
 </script>
 </body></html>

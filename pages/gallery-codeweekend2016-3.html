@@ -15,7 +15,7 @@
 <nav>
 	<div class="nav-wrapper grey darken-4">
 		<a href="../index.html" class="brand-logo"><img src="../images/YHlogo.png" style="height: 25px; margin-left: 2.5em;"></a>
-		<ul class="left hide-on-med-and-down linked">
+		<ul class="left hide-on-small-only linked">
 			<li><a href="about.html">ABOUT</a></li>
 			<li><a href="activities.html">ACTIVITIES</a></li>
 			<li><a href="ideas.html">IDEAS</a></li>
@@ -41,19 +41,19 @@
 
 <table class="gallery">
 <tr>
-	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/19.jpg"></td>
-	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/20.jpg"></td>
-	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/21.jpg"></td>
+	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/19.jpg" alt="19.jpg"></td>
+	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/20.jpg" alt="20.jpg"></td>
+	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/21.jpg" alt="21.jpg"></td>
 </tr>
 <tr>
-	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/22.jpg"></td>
-	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/23.jpg"></td>
-	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/24.jpg"></td>
+	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/22.jpg" alt="22.jpg"></td>
+	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/23.jpg" alt="23.jpg"></td>
+	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/24.jpg" alt="24.jpg"></td>
 </tr>
 <tr>
-	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/25.jpg"></td>
-	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/26.jpg"></td>
-	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/27.jpg"></td>
+	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/25.jpg" alt="25.jpg"></td>
+	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/26.jpg" alt="26.jpg"></td>
+	<td><img class="materialboxed hoverable" src="../images/yh-codeweekend2016-gallery/27.jpg" alt="27.jpg"></td>
 </tr>
 </table>
 <div style="text-align: center;">
@@ -78,10 +78,10 @@
 	</div>
 	<div class="col s5" style="text-align: center;">
 			<div class="footerSoc">
-			<a class="waves-effect waves-light" target="_blank" href="http://www.facebook.com/YouthHackCLBZ"><div class="socicon-facebook"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="http://www.twitter.com/YouthHackCLBZ"><div class="socicon-twitter"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="mailto://youthhackclbz@gmail.com"><div class="socicon-mail"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="http://youthhack.net"><div class="socicon"><i class="material-icons">language</i></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="YouthHack CALABARZON Facebook Page" target="_blank" href="http://www.facebook.com/YouthHackCLBZ"><div class="socicon-facebook"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="@YouthHackCLBZ" target="_blank" href="http://www.twitter.com/YouthHackCLBZ"><div class="socicon-twitter"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="youthhackclbz@gmail.com" href="mailto://youthhackclbz@gmail.com"><div class="socicon-mail"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="http://www.youthhack.net/" target="_blank" href="http://youthhack.net"><div class="socicon"><i class="material-icons">language</i></div></a>
 			</div>
 
 			<!-- <div class="dev">
@@ -110,6 +110,7 @@
 <script>
 $(document).ready(function(){
 	$('.materialboxed').materialbox();
+	$('.tooltipped').tooltip({delay: 400});
 });
 </script>
 </body></html>

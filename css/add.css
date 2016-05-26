@@ -11,7 +11,7 @@
 .shadowed {
 	line-height: 0.9em;
 	margin: auto;
-	font-size: 45pt;
+	font-size: 10vh;
 	font-family: Code;
 	margin-top: 15pt;
 }
@@ -215,7 +215,6 @@ main {
 	padding: 0;
 	text-align: center;
 	font-size: 30pt;
-	font-weight: bold;
 	font-family: Code;
 }
 

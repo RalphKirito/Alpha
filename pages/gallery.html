@@ -15,7 +15,7 @@
 <nav>
 	<div class="nav-wrapper grey darken-4">
 		<a href="../index.html" class="brand-logo"><img src="../images/YHlogo.png" style="height: 25px; margin-left: 2.5em;"></a>
-		<ul class="left hide-on-med-and-down linked">
+		<ul class="left hide-on-small-only linked">
 			<li><a href="about.html">ABOUT</a></li>
 			<li><a href="activities.html">ACTIVITIES</a></li>
 			<li><a href="ideas.html">IDEAS</a></li>
@@ -32,7 +32,7 @@
 	<div class="col s4">
 	<div class="card">
 		<div class="card-image">
-			<img src="../images/yh-codeweekend2016-gallery/35.jpg">
+			<img src="../images/yh-codeweekend2016-gallery/35.jpg" alt="Code Weekend 2016">
 			<div class="card-title" style="width: 100%;">Code Weekend 2016</div>
 		</div>
 		<div class="card-content">
@@ -47,7 +47,7 @@
 	<div class="col s4">
 	<div class="card">
 		<div class="card-image">
-			<img src="../images/yh-core-gallery/1.jpg">
+			<img src="../images/yh-core-gallery/1.jpg" alt="YouthHack Core Team">
 			<span class="card-title">YouthHack Core Team</span>
 		</div>
 		<div class="card-content">
@@ -71,10 +71,10 @@
 	</div>
 	<div class="col s5" style="text-align: center;">
 			<div class="footerSoc">
-			<a class="waves-effect waves-light" target="_blank" href="http://www.facebook.com/YouthHackCLBZ"><div class="socicon-facebook"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="http://www.twitter.com/YouthHackCLBZ"><div class="socicon-twitter"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="mailto://youthhackclbz@gmail.com"><div class="socicon-mail"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="http://youthhack.net"><div class="socicon"><i class="material-icons">language</i></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="YouthHack CALABARZON Facebook Page" target="_blank" href="http://www.facebook.com/YouthHackCLBZ"><div class="socicon-facebook"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="@YouthHackCLBZ" target="_blank" href="http://www.twitter.com/YouthHackCLBZ"><div class="socicon-twitter"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="youthhackclbz@gmail.com" href="mailto://youthhackclbz@gmail.com"><div class="socicon-mail"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="http://www.youthhack.net/" target="_blank" href="http://youthhack.net"><div class="socicon"><i class="material-icons">language</i></div></a>
 			</div>
 
 			<!-- <div class="dev">
@@ -101,6 +101,8 @@
 <script type="text/javascript" src="../js/materialize.min.js"></script>
 
 <script>
-
+$(document).ready(function() {
+	$('.tooltipped').tooltip({delay: 400});
+});
 </script>
 </body></html>

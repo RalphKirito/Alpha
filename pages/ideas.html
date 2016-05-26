@@ -15,7 +15,7 @@
 <nav>
 	<div class="nav-wrapper grey darken-4">
 		<a href="../index.html" class="brand-logo"><img src="../images/YHlogo.png" style="height: 25px; margin-left: 2.5em;"></a>
-		<ul class="left hide-on-med-and-down linked">
+		<ul class="left hide-on-small-only linked">
 			<li><a href="about.html">ABOUT</a></li>
 			<li><a href="activities.html">ACTIVITIES</a></li>
 			<li class="active"><a href="ideas.html">IDEAS</a></li>
@@ -33,7 +33,7 @@
 	<!-- First -->
 	<div class="card">
 		<div class="card-image waves-effect waves-block waves-light">
-			<img class="activator" src="../images/pitches/food-rhymes.jpg">
+			<img class="activator" src="../images/pitches/food-rhymes.jpg" alt="Food Rhymes">
 		</div>
 
 		<div class="card-content">
@@ -55,7 +55,7 @@
 	<!-- Second -->
 	<div class="card">
 		<div class="card-image waves-effect waves-block waves-light">
-			<img class="activator" src="../images/pitches/cine-gabay.jpg">
+			<img class="activator" src="../images/pitches/cine-gabay.jpg" alt="CineGabay">
 		</div>
 
 		<div class="card-content">
@@ -78,7 +78,7 @@
 	<!-- Fifth -->
 	<div class="card">
 		<div class="card-image waves-effect waves-block waves-light">
-			<img class="activator" src="../images/pitches/we-lib.jpg">
+			<img class="activator" src="../images/pitches/we-lib.jpg" alt="We Lib">
 		</div>
 
 		<div class="card-content">
@@ -102,7 +102,7 @@
 	<!-- Third -->
 	<div class="card">
 		<div class="card-image waves-effect waves-block waves-light">
-			<img class="activator" src="../images/pitches/gap.jpg">
+			<img class="activator" src="../images/pitches/gap.jpg" alt="Game Alarm Planner">
 		</div>
 
 		<div class="card-content">
@@ -125,7 +125,7 @@
 	<!-- Fourth -->
 	<div class="card">
 		<div class="card-image waves-effect waves-block waves-light">
-			<img class="activator" src="../images/pitches/elf.jpg">
+			<img class="activator" src="../images/pitches/elf.jpg" alt="E-Learning Forward">
 		</div>
 
 		<div class="card-content">
@@ -148,7 +148,7 @@
 	<!-- Fifth -->
 	<div class="card">
 		<div class="card-image waves-effect waves-block waves-light">
-			<img class="activator" src="../images/pitches/math-hack.jpg">
+			<img class="activator" src="../images/pitches/math-hack.jpg" alt="Math Hack">
 		</div>
 
 		<div class="card-content">
@@ -172,7 +172,7 @@
 	<div class="col s4">
 	<div class="card">
 		<div class="card-image waves-effect waves-block waves-light">
-			<img src="../images/pitches/bw.jpg" class="activator">
+			<img src="../images/pitches/bw.jpg" alt="OKKBSKM" class="activator">
 		</div>
 
 		<div class="card-content">
@@ -202,10 +202,10 @@
 	</div>
 	<div class="col s5" style="text-align: center;">
 			<div class="footerSoc">
-			<a class="waves-effect waves-light" target="_blank" href="http://www.facebook.com/YouthHackCLBZ"><div class="socicon-facebook"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="http://www.twitter.com/YouthHackCLBZ"><div class="socicon-twitter"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="mailto://youthhackclbz@gmail.com"><div class="socicon-mail"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="http://youthhack.net"><div class="socicon"><i class="material-icons">language</i></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="YouthHack CALABARZON Facebook Page" target="_blank" href="http://www.facebook.com/YouthHackCLBZ"><div class="socicon-facebook"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="@YouthHackCLBZ" target="_blank" href="http://www.twitter.com/YouthHackCLBZ"><div class="socicon-twitter"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="youthhackclbz@gmail.com" href="mailto://youthhackclbz@gmail.com"><div class="socicon-mail"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="http://www.youthhack.net/" target="_blank" href="http://youthhack.net"><div class="socicon"><i class="material-icons">language</i></div></a>
 			</div>
 
 			<!-- <div class="dev">
@@ -232,6 +232,8 @@
 <script type="text/javascript" src="../js/materialize.min.js"></script>
 
 <script>
-
+$(document).ready(function() {
+	$('.tooltipped').tooltip({delay: 400});
+});
 </script>
 </body></html>

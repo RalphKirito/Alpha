@@ -15,7 +15,7 @@
 <nav>
 	<div class="nav-wrapper grey darken-4">
 		<a href="../../index.html" class="brand-logo"><img src="../../images/YHlogo.png" style="height: 25px; margin-left: 2.5em;"></a>
-		<ul class="left hide-on-med-and-down linked">
+		<ul class="left hide-on-small-only linked">
 			<li><a href="../about.html">ABOUT</a></li>
 			<li><a href="../activities.html">ACTIVITIES</a></li>
 			<li><a href="../ideas.html">IDEAS</a></li>
@@ -44,7 +44,7 @@
 	<div class="date">April 15, 2016</div>
 </div>
 
-	<div class="graphic null"><img src="../../images/yh-codeweekend2016-gallery/1.jpg" class="materialboxed"></div>
+	<div class="graphic null"><img src="../../images/yh-codeweekend2016-gallery/1.jpg" alt="1.jpg" class="materialboxed"></div>
 		<p>"CAN WE really make it?" I thought to myself when teammates from Maroon Hackers started toying with the idea of bringing YouthHack to Region IV-A (Calabarzon).</p>
 
 		<p>Since its founding in 2014, YouthHack has continued to help students learn about start-ups, technology and entrepreneurship.</p>
@@ -66,7 +66,7 @@
 		<p>The ventures revolved around areas covering education, advertising and productivity.</p>
 		<p>Among the unique products is We Lib, a collaborative project by Joaqui Gamo, Keith Manaloto and Jasper Sunga that aims to help publishing houses meet the current demands of students and create an avenue for students to sell their old textbooks.</p>
 		<p>This platform can help forecast the quantity for production and eliminate the burden of library- and store-hopping for students.</p>
-	<div class="graphic" style="text-align: center;"><img src="../../images/blog/cine-gabay.jpg" class="materialboxed"><div class="capt">Team Pitchers' Cine Gabay prototype (Twitter: @RalphKirito)</div></div>
+	<div class="graphic" style="text-align: center;"><img src="../../images/blog/cine-gabay.jpg" alt="cine-gabay.jpg" class="materialboxed"><div class="capt">Team Pitchers' Cine Gabay prototype (Twitter: @RalphKirito)</div></div>
 		<p>Cine Gabay promotes independent films and provides viewers information about the featured productions. This online database with advanced cyber security by JN Incaro, Ralph Silaya and Troy Maliksi can pave the way for a targeted marketing scheme for starting filmmakers.</p>
 		<p>Among the seven teams that competed, Food Rhymes, with proponents Grace Eclavea and siblings Lizette, Lemuel and Loise Arcillas, took the first prize. Their goal is to establish a restaurant discovery service that promotes small-scale businesses and helps customers make informed choices.</p>
 		<p class="bold">It's never too early to pursue your passion.</p>
@@ -88,10 +88,10 @@
 	</div>
 	<div class="col s5" style="text-align: center;">
 			<div class="footerSoc">
-			<a class="waves-effect waves-light" target="_blank" href="http://www.facebook.com/YouthHackCLBZ"><div class="socicon-facebook"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="http://www.twitter.com/YouthHackCLBZ"><div class="socicon-twitter"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="mailto://youthhackclbz@gmail.com"><div class="socicon-mail"></div></a>
-			<a class="waves-effect waves-light" target="_blank" href="http://youthhack.net"><div class="socicon"><i class="material-icons">language</i></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="YouthHack CALABARZON Facebook Page" target="_blank" href="http://www.facebook.com/YouthHackCLBZ"><div class="socicon-facebook"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="@YouthHackCLBZ" target="_blank" href="http://www.twitter.com/YouthHackCLBZ"><div class="socicon-twitter"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="youthhackclbz@gmail.com" href="mailto://youthhackclbz@gmail.com"><div class="socicon-mail"></div></a>
+			<a class="waves-effect waves-light tooltipped" data-position="top" data-tooltip="http://www.youthhack.net/" target="_blank" href="http://youthhack.net"><div class="socicon"><i class="material-icons">language</i></div></a>
 			</div>
 
 			<!-- <div class="dev">
@@ -118,6 +118,8 @@
 <script type="text/javascript" src="../../js/materialize.min.js"></script>
 
 <script>
-
+$(document).ready(function() {
+	$('.tooltipped').tooltip({delay: 400});
+});
 </script>
 </body></html>
