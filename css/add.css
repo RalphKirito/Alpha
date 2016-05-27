@@ -373,8 +373,14 @@ main {
 
 .entries {
 	margin-bottom: 4em;
-	border-left: 3pt solid #FDBB1E;
+	border-left: 3pt solid white;
+	transition: 0.3s all ease;
 	padding-left: 0.5em;
+}
+
+.entries:hover {
+	border-left: 3pt solid #FDBB1E;
+	transition: 0.3s all ease;
 }
 
 /*
